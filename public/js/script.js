@@ -16,8 +16,8 @@ submit.addEventListener('submit', (e) => {
             if(data.error) {
                 message1.textContent = data.error
             }else {
-                message2.textContent = data.location
-                message1.textContent = data.forecast
+                message1.textContent = data.location
+                message2.textContent = data.forecast
             }
         })
     })
