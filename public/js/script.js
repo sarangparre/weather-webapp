@@ -1,6 +1,3 @@
-
-console.log("Static page is loaded for client side")
-
 const submit = document.querySelector('form')
 const input = document.querySelector('input')
 const message1 = document.querySelector('#message-1')
